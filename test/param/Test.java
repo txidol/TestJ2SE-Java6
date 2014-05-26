@@ -5,6 +5,7 @@ public class Test {
 		d.a ="4";
 	}
 	
+	@SuppressWarnings("null")
 	public static void main(String[] args) {
 		Demo d = new Demo();
 		d.a = "123";
